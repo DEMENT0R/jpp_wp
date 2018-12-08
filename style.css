@@ -1047,6 +1047,20 @@ body {
 
 @media only screen and (min-width: 768px) {
   /* Tablets — portrait. */
+  header {
+    position: fixed;
+    top: 0;
+    height: 190px;
+    width: 100%;
+    background: #fff;
+  }
+  #content {
+    position: absolute;
+    top: 190px;
+  }
+  .site-branding, .custom-logo-link, .site-title, .site-description, .main-navigation {
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 992px) {
