@@ -1,0 +1,15 @@
+
+/* Preloader starts*/
+#before-load {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: $bg_color;
+  background-image: url('../img/logo.png'); 
+  background-repeat:no-repeat; 
+  background-position: center center; 
+  z-index: 9999;
+}
+/* Preloader ends*/

@@ -1,0 +1,38 @@
+
+/* Buttons starts */
+.next-button {
+ background-color:#000;
+ color:#fff;
+ padding:10px 20px;
+ position:relative;
+ text-decoration:none;
+}
+
+.next-button:active {
+ background-color:#000;
+ color:#fff;
+ text-decoration: none;
+ text-decoration-color: #fff;
+}
+
+.next-button:hover {
+ background-color:#777;
+ color:#fff;
+ text-decoration: none;	
+ text-decoration-color: #fff;
+}
+
+.next-button::after {
+ background-color: #777;
+ color: #fff;
+ content: "→";
+ display: block;
+ height: 100%;
+ padding: 8px;
+ position: absolute;
+ right: -40px;
+ text-align: center;
+ top: 0;
+ width: 40px;
+}
+/* Buttons ends */

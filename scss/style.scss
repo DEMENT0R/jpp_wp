@@ -1,0 +1,45 @@
+/* CSS Start */
+
+@import 'parts/_base_wp_style.scss';
+
+@import 'parts/_colors.scss';
+@import 'parts/_buttons.scss';
+@import 'parts/_preloader.scss';
+
+@import 'parts/_default.scss';
+
+/* Base styles for simple browsers. */
+@import 'parts/_128_left_menu.scss';
+@import 'parts/_128_style.scss';
+
+@media only screen and (min-width: 320px) {
+	/* Old phones */
+	@import 'parts/_320_left_menu.scss';
+	@import 'parts/_320_style.scss';
+}
+
+@media only screen and (min-width: 480px) {
+	/* Android, iPhone, etc. */
+	@import 'parts/_480_left_menu.scss';
+	@import 'parts/_480_style.scss';
+}
+
+@media only screen and (min-width: 768px) {
+	/* Tablets — portrait. */
+	@import 'parts/_768_left_menu.scss';
+	@import 'parts/_768_style.scss';
+}
+
+@media only screen and (min-width: 992px) {
+	/* Landscape tablets, notebooks, desktop. */
+	@import 'parts/_992_left_menu.scss';
+	@import 'parts/_992_style.scss';
+}
+
+@media only screen and (min-width: 1382px) {
+	/* Hires desktops, TVs. */
+	@import 'parts/_1382_left_menu.scss';
+	@import 'parts/_1382_style.scss';
+}
+
+/* CSS End */
