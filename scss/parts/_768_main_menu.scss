@@ -1,17 +1,60 @@
 
-// header {
-// 	position: fixed;
-// 	top: 0;
-// 	height: 190px;
-// 	width: 100%;
-// 	background: #fff;
-// }
+.main-navigation {
+	position: fixed;
+	top: 0;
+	height: 190px;
+	width: 100%;
+	background: #fff;
+	margin: 0;
+}
 
-// #content {
-// 	position: absolute;
-// 	top: 190px;
-// }
+#content {
+	//position: absolute;
+	//top: 190px;
+}
 
-// .site-branding, .custom-logo-link, .site-title, .site-description, .main-navigation {
-// 	display: inline-block;
-// }
+.site-branding {
+	display: inline-block;
+	width: 40%;
+	margin-left: 25px;
+}
+
+.site-description {
+	width: 218px;
+}
+
+.custom-logo-link, 
+.site-title, 
+.site-description, 
+.custom-logo-link,
+.primary-menu li {
+	display: inline-block;
+	//width: auto;
+	margin: 5px 25px;
+}
+
+.custom-logo-link img {
+	height: 76px;
+	widows: 121px;
+	width: auto;
+}
+
+.site-branding a {
+	display: inline-block;
+}
+
+.site-title {
+	display: none;
+}
+
+.site-branding {
+
+}
+
+.menu-jppv_menu-container {
+	width: 60%;
+}
+
+.primary-menu {
+	float: right;
+}

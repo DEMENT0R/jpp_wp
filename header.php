@@ -26,7 +26,7 @@
 	<div id="before-load"></div>
 	<script type="application/javascript">
 		$(window).load(function() {
-			$('#before-load').find('i').fadeOut().end().delay(1000).fadeOut(1000);
+			$('#before-load').find('i').fadeOut().end().delay(100).fadeOut(100);
 		});
 	</script>
 
@@ -34,31 +34,31 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'jppv' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<nav id="site-navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-white wide-navbar main-navigation">
+			<div class="site-branding">
 				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$jppv_description = get_bloginfo( 'description', 'display' );
-			if ( $jppv_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $jppv_description; /* WPCS: xss ok. */ ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
+				the_custom_logo();
+				if ( is_front_page() && is_home() ) :
+					?>
+					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<?php
+				else :
+					?>
+					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+					<?php
+				endif;
+				$jppv_description = get_bloginfo( 'description', 'display' );
+				if ( $jppv_description || is_customize_preview() ) :
+					?>
+					<p class="site-description"><?php echo $jppv_description; /* WPCS: xss ok. */ ?></p>
+				<?php endif; ?>
+			</div>
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'jppv' ); ?></button>
 			<?php
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
 				'menu_id'        => 'primary-menu',
+				'menu_class'        => 'primary-menu',
 			) );
 			?>
 		</nav><!-- #site-navigation -->

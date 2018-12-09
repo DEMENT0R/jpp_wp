@@ -32,5 +32,10 @@
 
 <?php wp_footer(); ?>
 
+		<script>
+			function show_send_block () {
+				$('#nav-toggle').click();
+			}
+		</script>
 </body>
 </html>

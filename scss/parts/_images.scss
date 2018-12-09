@@ -1,0 +1,23 @@
+/*Test images starts*/
+.demo-image-1 {
+	//background-image: url('img/night_vlad.jpg');
+	background-size: 50% auto;
+}
+/*Test images ends*/
+
+.main-image-1 {
+	background-image: url('img/bg_01.jpg');
+	background-size: cover;
+}
+
+.main-image-2 {
+	/*
+	background-image: url('../img/bg_02.jpg');
+	background-size: cover;
+	*/
+}
+
+.main-image-3 {
+	background-image: url('img/bg_03.jpg');
+	background-size: cover;
+}
