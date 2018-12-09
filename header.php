@@ -21,6 +21,15 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+	<!-- Preloader -->
+	<div id="before-load"></div>
+	<script type="application/javascript">
+		$(window).load(function() {
+			$('#before-load').find('i').fadeOut().end().delay(1000).fadeOut(1000);
+		});
+	</script>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'jppv' ); ?></a>
 
