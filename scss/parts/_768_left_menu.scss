@@ -33,7 +33,7 @@
  */
 
 .nav-toggle {
-    position: absolute;
+    position: fixed;
     left: 30vw;
     top: 20vh;
     padding: 15px;
@@ -69,7 +69,7 @@
  */
  
 [id='nav-toggle'] {
-    position: absolute;
+    position: fixed;
     display: none;
 }
  
@@ -411,7 +411,7 @@ body {
 /************************/
 
 #left-full-button {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   bottom: 0;

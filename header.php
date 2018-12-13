@@ -50,7 +50,7 @@
 				$jppv_description = get_bloginfo( 'description', 'display' );
 				if ( $jppv_description || is_customize_preview() ) :
 					?>
-					<p class="site-description"><?php echo $jppv_description; /* WPCS: xss ok. */ ?></p>
+					<p class="site-description" style="float: right;"><?php echo $jppv_description; /* WPCS: xss ok. */ ?></p>
 				<?php endif; ?>
 			</div>
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'jppv' ); ?></button>
@@ -58,7 +58,7 @@
 			wp_nav_menu( array(
 				'theme_location' => 'menu-1',
 				'menu_id'        => 'primary-menu',
-				'menu_class'        => 'primary-menu',
+				'menu_class'     => 'primary-menu',
 			) );
 			?>
 		</nav><!-- #site-navigation -->

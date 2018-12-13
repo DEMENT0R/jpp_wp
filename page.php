@@ -16,7 +16,8 @@ get_header();
 ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+		<!-- bla bla -->
+		<main id="main" class="site-main mt-5 pt-5 ml-5 pl-5">
 
 		<?php
 		while ( have_posts() ) :
