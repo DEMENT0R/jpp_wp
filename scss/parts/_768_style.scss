@@ -1,0 +1,133 @@
+/*************/
+/*MAIN STYLES*/
+/*************/
+
+* {
+  font-family: Play;
+  font-size: 2.5vh;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3.5vh;
+}
+
+header {
+  position: absolute;
+}
+/*Empty test*/
+/*
+.section {
+  text-align:center;
+  font-size: 3em;
+}
+*/
+
+.wide-navbar {
+  display: flex;
+}
+.small-navbar {
+  display: none;
+}
+
+#logo {
+	height: 46px;
+}
+
+.bg-image {
+	height: 100vh;
+  width: 100vw;
+}
+
+.bg-bottom-right {
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+.nav {
+    /*  ширна произвольная, не стесняйтесь экспериментировать */
+    width: 30vw;
+    min-width: 30vw;
+    /* сдвигаем (прячем) панель относительно левого края страницы */
+    left: -30vw;
+}
+.nav-toggle {
+    /* относительно левого края панели */
+    left: 30vw;
+}
+
+.navbar-brand{
+  margin-left: 221px;
+}
+
+/*Fullscreen images*/
+
+#main-block-1 {
+  position: absolute;
+  left: 15vw;
+  top: 15vh;
+  right: 40vw;
+  bottom: auto;
+  background: #fff;
+  padding: 4vw;
+}
+
+#main-block-2 {
+  position: absolute;
+  left: 15vw;
+  top: 15vh;
+  right: 5vw;
+  bottom: 15vh;
+  background: #fff;
+  padding: 0vw;
+}
+
+#main-block-3 {
+  color: #fff;
+  position: absolute;
+  left: 10vw;
+  top: 30vh;
+  right: 60vw;
+  bottom: auto;
+  padding: 0;
+}
+
+#map-block-3 {
+  position: absolute;
+  left: 45vw;
+  top: 5vh;
+  right: 15vw;
+  max-height: 75vh;
+  //bottom: 1vh;
+  padding: 0;
+  /*background-color: #777;*/
+}
+
+#stats-block-3 {
+  color: #fff;
+  position: absolute;
+  left: 80vw;
+  top: 30vh;
+  right: 3vw;
+  bottom: auto;
+  padding: 0;
+}
+
+.column-area {
+  min-height: 150px;
+  -webkit-column-width: 200px;
+  -moz-column-width: 200px;
+  column-width: 200px;
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  /*
+  -webkit-column-rule: 1px solid #ccc;
+  -moz-column-rule: 1px solid #ccc;
+  column-rule: 1px solid #ccc;
+  */
+}

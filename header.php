@@ -34,7 +34,8 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'jppv' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<nav id="site-navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-white wide-navbar main-navigation">
+		<!-- Wide Navbar -->
+		<nav id="site-navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-white wide-navbar main-navigation d-none d-md-flex">
 			<div class="site-branding">
 				<?php
 				the_custom_logo();
@@ -62,6 +63,37 @@
 			) );
 			?>
 		</nav><!-- #site-navigation -->
+		<!-- Small navbar -->
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark small-navbar d-md-none" style="background-color: #0A1D2E; height: 60px;">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<a href="#" onclick="show_send_block ()" id="left-full-button-in-menu">Оставить обращение</a>
+			<script>
+				function show_send_block () {
+					$('#nav-toggle').click();
+				}
+			</script>
+			<div class="collapse navbar-collapse bg-dark p-3" id="navbarSupportedContent2">
+				<form class="form-inline my-2 my-lg-0 mx-auto">
+					<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+				</form>
+				<ul class="navbar-nav ml-auto mr-4">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Платформа <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Инвестору</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Пресс-центр</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

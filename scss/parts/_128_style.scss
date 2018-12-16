@@ -1,0 +1,75 @@
+/*************/
+/*MAIN STYLES*/
+/*************/
+
+.wide-navbar {
+  display: none;
+}
+.small-navbar {
+  display: flex;
+}
+
+#main-block-1 {
+  background-color: #fff;
+  position: absolute;
+  top: 260px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 15px 20px;
+}
+
+.main-image-1 {
+  background-image: url('../img/03.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  right: 0;
+  bottom: 60vh;
+}
+
+.nav {
+    /*  ширна произвольная, не стесняйтесь экспериментировать */
+    width: 100vw;
+    min-width: 100vw;
+    /* сдвигаем (прячем) панель относительно левого края страницы */
+    left: -100vw;
+}
+.nav-toggle {
+    /* относительно левого края панели */
+    left: 100vw;
+}
+
+#main-button-1 {
+  position: relative;
+  bottom: 3vh;
+  left: auto;
+  right: auto;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+/*****************/
+/*LEFT BAR STYLES*/
+/*****************/
+
+.left-nav {
+    width: 100vw;
+    min-width: 100vw;
+    left: -100vw;
+}
+.nav-toggle {
+    left: 100vw;
+}
+[id='nav-toggle']:checked ~ #fullpage > .section, [id='nav-toggle']:checked ~ .navbar {
+    -webkit-transform: translateX(100vw);
+    -moz-transform: translateX(100vw);
+    transform: translateX(100vw);
+}
+
+#left-full-button-in-menu {
+  color: #fff;
+}
