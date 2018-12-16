@@ -73,6 +73,21 @@ header {
   padding: 4vw;
 }
 
+.main-image-1 {
+  background-image: url('img/bg_01.jpg');
+  background-size: cover;
+}
+
+// .main-image-1 {
+//   background-image: url('img/03.jpg');
+//   background-size: cover;
+//   position: absolute;
+//   top: 5vh;
+//   left: 0;
+//   right: 0;
+//   bottom: 60vh;
+// }
+
 #main-block-2 {
   position: absolute;
   left: 15vw;
