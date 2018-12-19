@@ -12,7 +12,7 @@ get_header();
 
 	<section id="primary" class="content-area p-1 pt-5 p-md-5">
 		<main id="main" class="site-main m-1 mt-5 m-md-5">
-		<hr class="d-none d-md-block">
+		<br class="d-none d-md-block">
 		<?php if ( have_posts() ) : ?>
 
 			<div class="page-header">
