@@ -19,7 +19,7 @@ get_header();
 				<h2 class="page-title">
 					<?php
 					/* translators: %s: search query. */
-					printf( esc_html__( 'Результаты поиска для: %s', 'jppv' ), '<span>' . get_search_query() . '</span>' );
+					printf( esc_html__( 'Результаты поиска для: %s', 'jppv' ), '' . get_search_query() . '' );
 					?>
 				</h2>
 			</div><!-- .page-header -->
