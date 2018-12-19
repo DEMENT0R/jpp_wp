@@ -1,3 +1,8 @@
+.menu-item *, .menu-item *:visited {
+	font-size: 16px;
+	font-weight: 500;
+	color: $fnt_color;
+}
 
 .main-navigation {
 	position: fixed;
@@ -14,9 +19,9 @@
 }
 
 .site-branding {
-	display: inline-block;
-	width: 40%;
-	margin-left: 50px;
+	// display: inline-block;
+	// width: 40%;
+	// margin-left: 50px;
 }
 
 .site-description {
@@ -35,8 +40,8 @@
 
 .custom-logo-link img {
 	height: 76px;
-	widows: 121px;
 	width: auto;
+	margin: 5px;
 }
 
 .site-branding a {
@@ -52,7 +57,7 @@
 }
 
 .menu-jppv_menu-container {
-	width: 60%;
+	//width: 100%;
 }
 
 .primary-menu {

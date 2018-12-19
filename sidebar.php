@@ -26,10 +26,10 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 		<h4 class="pt-5">Оставить обращение</h4>
 		<ul class="mx-auto">
 			<li class="text-white">Представьтесь, пожалуйста:</li>
-			<li><input type="text" placeholder="ФИО"></li>
-			<li><input type="text" placeholder="Телефон"></li>
-			<li><input type="text" placeholder="Email"></li>
-			<li><input type="text" placeholder="Комментарий"></li>
+			<li><input type="text" placeholder="ФИО" class="text-white"></li>
+			<li><input type="text" placeholder="Телефон" class="text-white"></li>
+			<li><input type="text" placeholder="Email" class="text-white"></li>
+			<li><input type="text" placeholder="Комментарий" class="text-white"></li>
 			<br><br>
 			<a href="#" class="next-button">Отправить</a>
 		</ul>

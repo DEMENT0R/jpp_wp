@@ -33,7 +33,6 @@
  */
 
 .nav-toggle {
-    /* dsadsa */
     position: absolute;
     left: 30vw;
     top: 20vh;
@@ -105,14 +104,13 @@
  * фишка необязательная, на любителя
 */
  
-[id='nav-toggle']:checked ~ #fullpage > .section, [id='nav-toggle']:checked ~ #fullpage {
+
+[id='nav-toggle']:checked ~ .site-main, input[type=checkbox]:checked ~ .section {
     -webkit-transform: translateX(30vw);
     -moz-transform: translateX(30vw);
     -ms-transform: translateX(30vw);
     -o-transform: translateX(30vw);
     transform: translateX(30vw);
-
-    transform: rotate(270deg);
 
 /*
   -moz-transform: rotate(270deg); // Для Firefox
@@ -152,7 +150,8 @@ body {
  * позаботьтимся о средних и маленьких экранах
  * мобильных устройств
  */
- 
+
+/*
 @media screen and (min-width: 30vw) {
     html,
     body {
@@ -172,7 +171,8 @@ body {
       box-shadow: none
     }
 }
- 
+*/
+
 /**
  * Формируем стиль заголовка (логотип) панели 
 */

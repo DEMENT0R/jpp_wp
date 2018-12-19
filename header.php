@@ -35,33 +35,42 @@
 
 	<header id="masthead" class="site-header">
 		<!-- Wide Navbar -->
-		<nav id="site-navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-white wide-navbar main-navigation d-none d-md-flex">
-			<div class="site-branding">
-				<?php
-				the_custom_logo();
-				if ( is_front_page() && is_home() ) :
-					?>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<nav id="site-navigation" class="navbar fixed-top navbar-expand-lg navbar-light bg-white wide-navbar main-navigation d-none d-md-flex row">
+			<div class="site-branding col-5 row">
+				<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php //esc_html_e( 'Primary Menu', 'jppv' ); ?></button> -->
+				<div class="offset-1 col-5">
+					<?php the_custom_logo(); ?>
+				</div>
+				<div class="col-6 justify-content-center align-self-center">
 					<?php
-				else :
-					?>
-					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-					<?php
-				endif;
-				$jppv_description = get_bloginfo( 'description', 'display' );
-				if ( $jppv_description || is_customize_preview() ) :
-					?>
-					<p class="site-description" style="float: right;"><?php echo $jppv_description; /* WPCS: xss ok. */ ?></p>
-				<?php endif; ?>
+					if ( is_front_page() && is_home() ) :
+						?>
+						<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+						<?php
+					else :
+						?>
+						<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+						<?php
+					endif;
+					$jppv_description = get_bloginfo( 'description', 'display' );
+					if ( $jppv_description || is_customize_preview() ) :
+						?>
+						<p class="site-description pt-2 w-100" style="float: right;"><?php echo $jppv_description; /* WPCS: xss ok. */ ?></p>
+					<?php endif; ?>
+				</div>
 			</div>
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'jppv' ); ?></button>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-				'menu_class'     => 'primary-menu',
-			) );
-			?>
+			<div class="col-7">
+				<!-- <input type="text" value="Поиск" style="float: left; width: 25%;"> -->
+				<?php
+				get_search_form();
+				wp_nav_menu( array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+					'menu_class'     => 'primary-menu',
+				) );
+				?>
+			</div>
+
 		</nav><!-- #site-navigation -->
 		<!-- Small navbar -->
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark small-navbar d-md-none" style="background-color: #0A1D2E; height: 60px;">
@@ -76,7 +85,7 @@
 			</script>
 			<div class="collapse navbar-collapse bg-dark p-3" id="navbarSupportedContent2">
 				<form class="form-inline my-2 my-lg-0 mx-auto">
-					<input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+					<?php get_search_form(); ?>
 				</form>
 				<ul class="navbar-nav ml-auto mr-4">
 					<li class="nav-item active">
