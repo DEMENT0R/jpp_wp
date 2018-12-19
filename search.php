@@ -10,19 +10,19 @@
 get_header();
 ?>
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main">
+	<section id="primary" class="content-area p-1 pt-5 p-md-5">
+		<main id="main" class="site-main m-1 mt-5 m-md-5">
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<h1 class="page-title">
+			<div class="page-header">
+				<h2 class="page-title">
 					<?php
 					/* translators: %s: search query. */
-					printf( esc_html__( 'Search Results for: %s', 'jppv' ), '<span>' . get_search_query() . '</span>' );
+					printf( esc_html__( 'Результаты поиска для: %s', 'jppv' ), '<span>' . get_search_query() . '</span>' );
 					?>
-				</h1>
-			</header><!-- .page-header -->
+				</h2>
+			</div><!-- .page-header -->
 
 			<?php
 			/* Start the Loop */
