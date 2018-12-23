@@ -1158,6 +1158,10 @@ h1 {
   color: #fff;
 }
 
+.main-small-menu li, .main-small-menu a:visited {
+  color: #fff;
+}
+
 /**
  * Переключаемая боковая панель навигации
  * выдвигающаяся по клику слева
@@ -2030,7 +2034,7 @@ body {
     bottom: 0;
     width: 70px;
     background-color: #fff;
-    border-right: 1px solid #ACB3BF;
+    border-right: 2px solid #ACB3BF;
     z-index: 9998;
   }
   #left-full-button a {

@@ -84,10 +84,11 @@
 				}
 			</script>
 			<div class="collapse navbar-collapse bg-dark p-3" id="navbarSupportedContent2">
+				<!--
 				<form class="form-inline my-2 my-lg-0 mx-auto">
-					<?php get_search_form(); ?>
+					<?php //get_search_form(); ?>
 				</form>
-				<ul class="navbar-nav ml-auto mr-4">
+ 				<ul class="navbar-nav ml-auto mr-4">
 					<li class="nav-item active">
 						<a class="nav-link" href="#">Платформа <span class="sr-only">(current)</span></a>
 					</li>
@@ -100,7 +101,15 @@
 					<li class="nav-item">
 						<a class="nav-link" href="#">Контакты</a>
 					</li>
-				</ul>
+				</ul> -->
+				<?php
+				//get_search_form();
+				wp_nav_menu( array(
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+					'menu_class'     => 'navbar-nav ml-auto mr-4 main-small-menu',
+				) );
+				?>
 			</div>
 		</nav>
 	</header><!-- #masthead -->
