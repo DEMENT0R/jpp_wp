@@ -17,7 +17,7 @@
 		<div class="site-info text-center">
 			<?php
 			/* translators: 1: Theme name, 2: Theme author. */
-			printf( esc_html__( 'Theme: %1$s by %2$s.', 'jppv' ), 'jppv', '<a href="https://bezrukavnikov.ru">Maxim Bezrukavnikov</a>' );
+			printf( esc_html__( 'Theme: %1$s by %2$s.', 'jppv' ), 'jppv', '<a href="#">lorem ipsum</a>' );
 			?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
