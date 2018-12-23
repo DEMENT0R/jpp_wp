@@ -147,3 +147,23 @@ header {
   column-rule: 1px solid #ccc;
   */
 }
+
+.slide {
+  color: #fff;
+}
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent #fff transparent transparent;
+  border-top-color: transparent;
+  border-right-color: rgb(255, 255, 255);
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #fff;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: rgb(255, 255, 255);
+}

@@ -1041,15 +1041,7 @@ object {
 }
 
 .main-image-3-slide {
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  background-image: url("img/map_bg.jpg");
-  background-size: cover;
-  background-position: 0 10vh;
-  background-repeat: no-repeat;
-  padding-top: 100px;
-  padding-left: 100px;
+  padding: 10px;
 }
 
 .fp-prev {
@@ -1156,6 +1148,26 @@ h1 {
 
 #left-full-button-in-menu {
   color: #fff;
+}
+
+.slide {
+  color: #000;
+}
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent #fff transparent transparent;
+  border-top-color: transparent;
+  border-right-color: #777;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #fff;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: #777;
 }
 
 .main-small-menu li, .main-small-menu a:visited {
@@ -1668,6 +1680,34 @@ body {
   -moz-column-rule: 1px solid #ccc;
   column-rule: 1px solid #ccc;
   */
+  }
+  .slide {
+    color: #fff;
+  }
+  .fp-controlArrow.fp-prev {
+    border-color: transparent #fff transparent transparent;
+    border-top-color: transparent;
+    border-right-color: white;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  .fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent #fff;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: white;
+  }
+  .main-image-3-slide {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    background-image: url("img/map_bg.jpg");
+    background-size: cover;
+    background-position: 0 10vh;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-left: 100px;
   }
   /**
  * Переключаемая боковая панель навигации

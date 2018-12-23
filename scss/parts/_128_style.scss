@@ -74,3 +74,23 @@ h1 {
 #left-full-button-in-menu {
   color: #fff;
 }
+
+.slide {
+  color: #000;
+}
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent #fff transparent transparent;
+  border-top-color: transparent;
+  border-right-color: #777;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent #fff;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: #777;
+}
