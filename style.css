@@ -1567,11 +1567,17 @@ body {
     font-family: 'Roboto';
     font-size: 16px;
   }
-  h1 {
+  h1, h1 a {
     font-family: 'Play';
     font-style: normal;
     font-weight: bold;
     font-size: 3.5vh;
+  }
+  h2, h2 a {
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.0vh;
   }
   /*Empty test*/
   /*
