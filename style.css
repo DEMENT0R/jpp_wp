@@ -1573,9 +1573,6 @@ body {
     font-weight: bold;
     font-size: 3.5vh;
   }
-  header {
-    position: absolute;
-  }
   /*Empty test*/
   /*
 .section {
@@ -1697,6 +1694,10 @@ body {
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-left-color: white;
+  }
+  .site-main {
+    margin-top: 15vh;
+    margin-left: 100px;
   }
   .main-image-3-slide {
     width: 100%;
