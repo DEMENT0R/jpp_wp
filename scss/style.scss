@@ -35,6 +35,7 @@
 	@import 'parts/_768_images.scss';
 	@import 'parts/_768_left_menu.scss';	
 	@import 'parts/_768_main_menu.scss';
+	@import 'parts/_768_fonts.scss';
 }
 
 @media only screen and (min-width: 992px) {
@@ -48,7 +49,7 @@
 	/* Hires desktops, TVs. */
 	@import 'parts/_1382_style.scss';
 	@import 'parts/_1382_left_menu.scss';
-	
+	@import 'parts/_1382_fonts.scss';
 }
 
 /* CSS End */

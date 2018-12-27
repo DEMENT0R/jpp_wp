@@ -1567,18 +1567,6 @@ body {
     font-family: 'Roboto';
     font-size: 16px;
   }
-  h1, h1 a {
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3.5vh;
-  }
-  h2, h2 a {
-    font-family: 'Play';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 3.0vh;
-  }
   /*Empty test*/
   /*
 .section {
@@ -2154,6 +2142,29 @@ body {
   .primary-menu {
     float: right;
   }
+  h1, h1 a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 4.2vh;
+    font-size: 3.5vh;
+    letter-spacing: -0.0125em;
+  }
+  h2, h2 a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 3.5vh;
+    font-size: 3.0vh;
+    letter-spacing: -0.0125em;
+  }
+  h3, h3 a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 3.0vh;
+    font-size: 1.75vh;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -2162,6 +2173,29 @@ body {
 
 @media only screen and (min-width: 1382px) {
   /* Hires desktops, TVs. */
+  h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 56px;
+    font-size: 48px;
+    letter-spacing: -0.0125em;
+  }
+  h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    font-size: 32px;
+    letter-spacing: -0.0125em;
+  }
+  h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    font-size: 24px;
+  }
 }
 
 /* CSS End */
