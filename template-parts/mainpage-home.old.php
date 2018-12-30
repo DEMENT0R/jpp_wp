@@ -89,7 +89,7 @@
         </div>
     </div>
     <div class="section pl-md-5 pt-md-5" id="section1">
-        <div class="slide" id="slide1">
+        <div class="slide">
             <div class="container-flex h-100">
                 <div class="main-image-3-slide">
                     <div class="container-flex row">
@@ -122,7 +122,7 @@
                 </div>
             </div>
         </div>
-        <div class="slide" id="slide2">
+        <div class="slide">
             <div class="container-flex h-100">
                 <div class="main-image-3-slide">
                     <div class="container-flex row">
