@@ -18,7 +18,7 @@ get_header();
 		<main id="main" class="site-main">
 
 		<?php
-			include 'template-parts/mainpage-home.php';
+			include 'template-parts/mainpage-home.old.php';
 		?>
 
 		</main><!-- #main -->
