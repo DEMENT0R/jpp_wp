@@ -1090,7 +1090,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 15px 20px;
+  padding: 10px 20px;
 }
 
 .main-image-1 {
@@ -1121,10 +1121,6 @@ body {
   bottom: 3vh;
   left: auto;
   right: auto;
-}
-
-h1 {
-  font-size: 6vw;
 }
 
 /*****************/
@@ -1550,6 +1546,30 @@ body {
     transition: opacity .5s, visibility .5s;
 }
 */
+h1, h1 a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  font-size: 28px;
+}
+
+h2, h2 a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 26px;
+  font-size: 20px;
+}
+
+h3, h3 a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 24px;
+  font-size: 18px;
+}
+
 @media only screen and (min-width: 320px) {
   /* Old phones */
 }
@@ -2148,7 +2168,6 @@ body {
     font-weight: 900;
     line-height: 4.2vh;
     font-size: 3.5vh;
-    letter-spacing: -0.0125em;
   }
   h2, h2 a {
     font-family: Roboto;
@@ -2156,7 +2175,6 @@ body {
     font-weight: 900;
     line-height: 3.8vh;
     font-size: 3.1vh;
-    letter-spacing: -0.0125em;
   }
   h3, h3 a {
     font-family: Roboto;
