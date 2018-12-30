@@ -12,25 +12,6 @@
             <div class="bg-image bg-bottom-right main-image-1">
                 <div id="main-block-1">
                     <h1>Платформа для поддержки японских инвестиций на Дальнем востоке</h1>
-                    
-                    <!--                     
-                        <style>
-                            .dark-layout:checked ~ .test {
-                              transform: translateX(30vw);
-                            }
-
-                            .light-layout:checked ~ .test {
-                              transform: translateX(0vw);
-                            }
-                        </style>
-
-                        <input id="light-layout" class="light-layout" type="radio" name="layout" checked>
-                        <label for="light-layout" class="layout-buttons settings-box-element">Default</label>
-                        
-                        <input id="dark-layout" class="dark-layout" type="radio" name="layout">
-                        <label for="dark-layout" class="layout-buttons settings-box-element">Right</label>
-                     -->
-                     
                     <p class="test">
                         Инициирована и создана Банком Японии для Международного Сотрудничества, Фондом развития Дальнего Востока и Байкальского региона и Агентством по привлечению инвестиций.
                     </p>
@@ -44,7 +25,7 @@
         <div class="container-flex">
             <div class="bg-image bg-bottom-right main-image-2">
                 <div id="main-block-2">
-                    <div class="container-flex column-area text-justify">
+                    <div class="container-flex column-area text-justify p-2">
                         <h1 style="break-after: column;">Пресс-центр</h1>
                         <div class="container-flex" style="break-inside: avoid-column;"><img src="https://api.fnkr.net/testimg/350x200/777/FFF/?text=Test+image" alt="Test image" width="100%">
                             <h4>Проект с изображением</h4>
@@ -93,7 +74,7 @@
             <div class="container-flex h-100">
                 <div class="main-image-3-slide">
                     <div class="container-flex row">
-                        <div class="col-md-4">
+                        <div class="col-12 col-md-4">
                             <h2>Дальний Восток</h2>
                             <br>
                             <h4>Социально-экономическая информация</h4>
@@ -105,7 +86,7 @@
                         <div class="col-md-4 d-none d-md-block">
                             <img src="wp-content/uploads/2018/12/dv_map.png" alt="Map!" style="height: 80vh;">
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 d-none d-md-block">
                             <h4>6100 тыс. кв. км</h4>
                             <b>Площадь дальнего востока</b>
                             <p>Высокий ВРП - 268 000 руб. (на 19% выше среднего показателя по России)</p>
@@ -126,7 +107,7 @@
             <div class="container-flex h-100">
                 <div class="main-image-3-slide">
                     <div class="container-flex row">
-                        <div class="col-md-4">
+                        <div class="col-12 col-md-4">
                             <h2>Дальний Восток</h2>
                             <br>
                             <h4>Приморский край</h4>
@@ -138,7 +119,7 @@
                         <div class="col-md-4 d-none d-md-block">
                             <img src="wp-content/uploads/2018/12/dv_map.png" alt="Map!" style="height: 80vh;">
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 d-none d-md-block">
                             <h4>6100 тыс. кв. км</h4>
                             <b>Площадь дальнего востока</b>
                             <p>Высокий ВРП - 268 000 руб. (на 19% выше среднего показателя по России)</p>
