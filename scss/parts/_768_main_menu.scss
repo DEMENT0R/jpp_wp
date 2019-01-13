@@ -1,3 +1,4 @@
+//OLD
 .menu-item *, .menu-item *:visited {
 	font-size: 16px;
 	font-weight: 500;
@@ -62,4 +63,21 @@
 
 .primary-menu {
 	float: right;
+}
+
+
+///////////////
+// NEW Styles//
+///////////////
+
+.menu-item a {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	letter-spacing: -0.4px;
+
+	color: #0A1D2E;
 }

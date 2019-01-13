@@ -16,7 +16,11 @@
                         Инициирована и создана Банком Японии для Международного Сотрудничества, Фондом развития Дальнего Востока и Байкальского региона и Агентством по привлечению инвестиций.
                     </p>
                     <br>
-                    <a id="main-button-1" class="next-button" href="#">Подробнее</a>
+                    <!-- <a id="main-button-1" class="next-button" href="#">Подробнее</a> -->
+                    Так:
+                    <a class="button-new next-button-new" href="#"></a>
+                    Эдак:
+                    <a class="button-new next-button-new-v2" href="#"></a>
                 </div>
             </div>
         </div>
@@ -62,8 +66,8 @@
                             <a href="#">Истории успеха</a><br>
 
                             <p class="mt-3" style="break-before: column;">
-                                <a class="next-button" href="#">В раздел</a>
-
+                                <!-- <a class="next-button" href="#">В раздел</a> -->
+                                <a class="button-new" href="#">В раздел</a>
                     </div>
                 </div>
             </div>
@@ -72,21 +76,22 @@
     <div class="section pl-md-5 pt-md-5" id="section1">
         <div class="slide">
             <div class="container-flex h-100">
-                <div class="main-image-3-slide">
+                <div class="main-image-3-slide slide-1-dv">
                     <div class="container-flex row">
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 slide-col">
                             <h2>Дальний Восток</h2>
                             <br>
-                            <h4>Социально-экономическая информация</h4>
+                            <h4 class="pt-md-5">Социально-экономическая информация</h4>
                             Дальний Восток – самая восточная часть территории России. Представляет собой крайний северо-восток Азии. Макрорегион имеет выход к двум океанам: Тихому и Северному Ледовитому, граничит с четырьмя государствами (Китаем, Японией, США, КНДР). 9 дальневосточных регионов расположены в четырех часовых поясах и самых разных климатических зонах от арктических пустынь до субтропиков.
                             <br><br>
-                            <a class="next-button" href="#">Инвестору</a>
+                            <!-- <a class="next-button" href="#">Инвестору</a> -->
+                            <a class="button-new" href="#">Инвестору</a>
 
                         </div>
                         <div class="col-md-4 d-none d-md-block">
                             <img src="wp-content/uploads/2018/12/dv_map.png" alt="Map!" style="height: 80vh;">
                         </div>
-                        <div class="col-md-3 d-none d-md-block">
+                        <div class="col-md-3 d-none d-md-block slide-col">
                             <h4>6100 тыс. кв. км</h4>
                             <b>Площадь дальнего востока</b>
                             <p>Высокий ВРП - 268 000 руб. (на 19% выше среднего показателя по России)</p>
@@ -105,21 +110,22 @@
         </div>
         <div class="slide">
             <div class="container-flex h-100">
-                <div class="main-image-3-slide">
+                <div class="main-image-3-slide slide-2-vl">
                     <div class="container-flex row">
-                        <div class="col-12 col-md-4">
+                        <div class="col-12 col-md-4 slide-col">
                             <h2>Дальний Восток</h2>
                             <br>
-                            <h4>Приморский край</h4>
+                            <h4 class="pt-md-5">Приморский край</h4>
                             Расположен на юге Дальнего Востока, в юго-восточной части Российской Федерации. На севере граничит с Хабаровским краем, на западе с КНР, на юго-западе с КНДР, с юга и востока омывается Японским морем. Крупный залив — Петра Великого. Берега залива сильно изрезаны и образуют внутренние заливы: Амурский, Уссурийский, Посьета, Стрело́к, Восток, Находка
                             <br><br>
-                            <a class="next-button" href="#">Инвестору</a>
+                            <!-- <a class="next-button" href="#">Инвестору</a> -->
+                            <a class="button-new" href="#">Инвестору</a>
 
                         </div>
                         <div class="col-md-4 d-none d-md-block">
                             <img src="wp-content/uploads/2018/12/dv_map.png" alt="Map!" style="height: 80vh;">
                         </div>
-                        <div class="col-md-3 d-none d-md-block">
+                        <div class="col-md-3 d-none d-md-block slide-col">
                             <h4>6100 тыс. кв. км</h4>
                             <b>Площадь дальнего востока</b>
                             <p>Высокий ВРП - 268 000 руб. (на 19% выше среднего показателя по России)</p>

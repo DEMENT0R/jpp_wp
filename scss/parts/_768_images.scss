@@ -4,8 +4,20 @@
   bottom: 0;
   background-image: url('img/map_bg.jpg');
   background-size: cover;
-  background-position: 0 10vh;
+  background-position: 0 200px;
   background-repeat: no-repeat;
   padding-top: 100px;
   padding-left: 100px;
+}
+
+.slide-1-dv {
+	background-image: url('img/elements/slide-1-dv.png');
+}
+
+.slide-2-vl {
+	background-image: url('img/elements/slide-2-vl.png');
+}
+
+.slide-col {
+	margin-top: 160px;
 }

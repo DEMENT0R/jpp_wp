@@ -36,6 +36,7 @@
                     </p>
                     <br>
                     <a id="main-button-1" class="next-button" href="#">Подробнее</a>
+                    <a class="next-button-new" href="#">Подробнее</a>
                 </div>
             </div>
         </div>

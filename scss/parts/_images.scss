@@ -6,7 +6,8 @@
 /*Test images ends*/
 
 .main-image-1 {
-	background-image: url('img/bg_01.jpg');
+	//background-image: url('img/bg_01.jpg');
+	background-image: url('img/elements/bg-new.png');
 	background-size: cover;
 }
 
@@ -32,7 +33,7 @@
 // 	background-repeat: no-repeat;
 // 	padding-top: 100px;
 // 	padding-left: 100px;
-padding: 10px;
+padding: 20px;
 }
 
 .fp-prev {
