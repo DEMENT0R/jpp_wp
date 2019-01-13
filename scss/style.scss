@@ -17,15 +17,11 @@
 
 @media only screen and (min-width: 320px) {
 	/* Old phones */
-	@import 'parts/_320_style.scss';
-	@import 'parts/_320_left_menu.scss';
 	
 }
 
 @media only screen and (min-width: 480px) {
 	/* Android, iPhone, etc. */
-	@import 'parts/_480_style.scss';
-	@import 'parts/_480_left_menu.scss';
 	
 }
 
@@ -40,16 +36,12 @@
 
 @media only screen and (min-width: 992px) {
 	/* Landscape tablets, notebooks, desktop. */
-	@import 'parts/_992_style.scss';
-	@import 'parts/_992_left_menu.scss';
 	
 }
 
 @media only screen and (min-width: 1382px) {
 	/* Hires desktops, TVs. */
-	@import 'parts/_1382_style.scss';
-	@import 'parts/_1382_left_menu.scss';
-	@import 'parts/_1382_fonts.scss';
+	
 }
 
 /* CSS End */
