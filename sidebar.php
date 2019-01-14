@@ -20,13 +20,17 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	<div id="left-full-button" onclick="show_send_block ()">
 		<a href="#" class="d-none d-md-inline"><img src="/wp-content/themes/jppv/img/red_cross.png" alt="" align="center"> Оставить обращение</a>
 	</div>
-	<div class="left-menu-sections">
+
+	<?php if (is_page(32)) {
+		include ('template-parts/left-menu-sections.php');
+	} ?>
+<!-- 	<div class="left-menu-sections">
 		<ul>
 			<li><a href="#firstPage">01</a></li>
 			<li><a href="#secondPage">02</a></li>
 			<li><a href="#thirdPage">03</a></li>
 		</ul>
-	</div>
+	</div> -->
 	<input type="checkbox" id="nav-toggle" hidden>
 	<nav class="left-nav">
 		<label for="nav-toggle" class="nav-toggle" onclick></label>
