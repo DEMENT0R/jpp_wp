@@ -1,3 +1,3 @@
 	<div class="left-menu-investoru">
-		<h1>investoru TEST</h1>
+		<h1>TEST block for left-menu-investoru</h1>
 	</div>
