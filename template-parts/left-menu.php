@@ -2,3 +2,6 @@
 		include ('left-menu-sections.php');
 	} ?>
 
+	<?php if (is_page('investoru')) {
+		include ('left-menu-investoru.php');
+	} ?>
