@@ -24,6 +24,13 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	<?php 
 		include ('template-parts/left-menu.php');
 	?>
+	<?php if (is_page(32)) {
+		include ('emplate-parts/left-menu-sections.php');
+	} ?>
+
+	<?php if is_page(35) {
+		include ('emplate-parts/left-menu-investoru.php');
+	} ?>
 <!-- 	<div class="left-menu-sections">
 		<ul>
 			<li><a href="#firstPage">01</a></li>
