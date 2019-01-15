@@ -5,5 +5,3 @@
 	<?php if is_page(35) {
 		include ('template-parts/left-menu-investoru.php');
 	} ?>
-
-	is_page( array('investoru', 'Инвестору') )
