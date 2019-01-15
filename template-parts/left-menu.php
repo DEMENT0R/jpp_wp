@@ -1,9 +1,9 @@
 	<?php if (is_page(32)) {
-		include ('left-menu-sections.php');
+		include ('template-parts/left-menu-sections.php');
 	} ?>
 
 	<?php if is_page(35) {
-		include ('left-menu-investoru.php');
+		include ('template-parts/left-menu-investoru.php');
 	} ?>
 
 	is_page( array('investoru', 'Инвестору') )
