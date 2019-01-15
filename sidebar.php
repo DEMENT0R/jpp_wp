@@ -21,9 +21,9 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 		<a href="#" class="d-none d-md-inline"><img src="/wp-content/themes/jppv/img/red_cross.png" alt="" align="center"> Оставить обращение</a>
 	</div>
 
-	<?php if (is_page(32)) {
+	<?php 
 		include ('template-parts/left-menu.php');
-	} ?>
+	?>
 <!-- 	<div class="left-menu-sections">
 		<ul>
 			<li><a href="#firstPage">01</a></li>
