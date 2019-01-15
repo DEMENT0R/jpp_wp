@@ -3,5 +3,5 @@
 	} ?>
 
 	<?php if is_page(35) {
-		include ('tleft-menu-investoru.php');
+		include ('left-menu-investoru.php');
 	} ?>
