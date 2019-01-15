@@ -22,7 +22,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 	</div>
 
 	<?php if (is_page(32)) {
-		include ('template-parts/left-menu-sections.php');
+		include ('template-parts/left-menu.php');
 	} ?>
 <!-- 	<div class="left-menu-sections">
 		<ul>
