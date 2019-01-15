@@ -2,6 +2,8 @@
 		include ('left-menu-sections.php');
 	} ?>
 
-	<?php if (is_page('investoru')) {
+	<?php if is_page(array('investoru', 'Инвестору')) {
 		include ('left-menu-investoru.php');
 	} ?>
+
+	is_page( array('investoru', 'Инвестору') )
