@@ -520,18 +520,15 @@ body {
 .left-menu-press-centr {
     position: fixed;
 
-    left: 70px;
+    left: 0;
     top: 0;
     bottom: 0;
-    width: 200px;
+    width: 674px;
 
     text-align: left;
     overflow: hidden;
-
-    border: solid 1px #aaa;
-    background-color: #eee;
 }
 
 .site-main {
-    margin-left: 300px;
+    margin-left: 674px;
 }
