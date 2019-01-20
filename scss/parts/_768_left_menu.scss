@@ -501,3 +501,37 @@ body {
 
     color: #ACB3BF;
 }
+
+.left-menu-investoru {
+    position: fixed;
+
+    left: 70px;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+
+    text-align: left;
+    overflow: hidden;
+
+    border: solid 1px #aaa;
+    background-color: #eee;
+}
+
+.left-menu-press-centr {
+    position: fixed;
+
+    left: 70px;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+
+    text-align: left;
+    overflow: hidden;
+
+    border: solid 1px #aaa;
+    background-color: #eee;
+}
+
+.site-main {
+    margin-left: 300px;
+}
